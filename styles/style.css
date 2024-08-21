@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+header img {
+  width: 50px;
+  margin-left: 20px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  color: #252a34;
+}
+header nav a:hover {
+  color: crimson;
+  transition: all 0.5s;
+}
+header #nav-left a {
+  padding: 0 20px;
+  border-right: 1px solid gray;
+}
+header #nav-left a:last-child {
+  border-right: none;
+}
+header #nav-right {
+  gap: 30px;
+  font-size: 15px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background: linear-gradient(rgb(215, 215, 215) 40%, #eaeaea 40%);
+}
+.hero .slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  max-width: 500px;
+}
+.hero .slogan h1 {
+  font-size: 40px;
+}
+.hero .slogan h1 span {
+  font-family: "Times New Roman", Times, serif;
+}
+.hero .slogan img {
+  width: 200px;
+}
+.hero .slogan button {
+  background-color: crimson;
+}
+.hero .slogan button:hover {
+  background-color: rgb(168, 16, 46);
+}
+.hero .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.hero .images-banner {
+  max-width: 800px;
+}
+.hero .images-track {
+  max-width: 400px;
+}
+.hero .images p {
+  max-width: 500px;
+  text-align: center;
+}
+
+.hero .slogan h1, .hero .slogan h2 {
+  font-family: "Inter";
+  color: #252a34;
+}
+
+.hero .slogan p {
+  color: #37393c;
+  font-size: 17px;
+}
+
+.hero .slogan button {
+  padding: 10px 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  mix-blend-mode: darken;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #eaeaea;
+}/*# sourceMappingURL=style.css.map */
